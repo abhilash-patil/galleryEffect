@@ -1,77 +1,85 @@
-
-
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Image Hover Effect</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    img {
+      -webkit-user-drag: none; /* Prevent image dragging in webkit browsers */
+      user-select: none; /* Prevent image selection */
+    }
+  </style>
 </head>
-<body>
+
+<body oncontextmenu="return false;">
   <div class="container">
     <div class="side-section">
       <!-- Side content goes here -->
       <div class="side-section">
-        <h2>Abhilash Patil</h2>
+        <h4>Abhilash Patil</h4>
         <ul>
-          <li><a href="https://abhilash.com">abhilash.com</a></li>
-          <li><a href="https://instagram.com">instagram.com</a></li>
+          <li><a href="https://abhilash.com">• abhilash.com</a></li>
+          <li><a href="https://instagram.com">• instagram.com</a></li>
         </ul>
       </div>
-      
     </div>
     <div class="image-section">
       <div class="gallery">
-      
-    <img src="https://plus.unsplash.com/premium_photo-1673266203705-08ee530cc2b5?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen Descriptiva 1" class="gallery-image">
-    <img src="https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen Descriptiva 2" class="gallery-image">
-    <img src="https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen Descriptiva 3" class="gallery-image">
-    <img src="https://images.unsplash.com/photo-1492666673288-3c4b4576ad9a?q=80&w=3864&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen Descriptiva 4" class="gallery-image">
-    <img src="https://images.unsplash.com/photo-1551963831-b3b1ca40c98e?q=80&w=4000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen Descriptiva 5" class="gallery-image">
-
-    <img src="https://plus.unsplash.com/premium_photo-1673266203705-08ee530cc2b5?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen Descriptiva 1" class="gallery-image">
-    <img src="https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen Descriptiva 2" class="gallery-image">
-    <img src="https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen Descriptiva 3" class="gallery-image">
-    <img src="https://images.unsplash.com/photo-1492666673288-3c4b4576ad9a?q=80&w=3864&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen Descriptiva 4" class="gallery-image">
-    <img src="https://images.unsplash.com/photo-1551963831-b3b1ca40c98e?q=80&w=4000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen Descriptiva 5" class="gallery-image">
-
-    <img src="https://plus.unsplash.com/premium_photo-1673266203705-08ee530cc2b5?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen Descriptiva 1" class="gallery-image">
-    <img src="https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen Descriptiva 2" class="gallery-image">
-    <img src="https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen Descriptiva 3" class="gallery-image">
-    <img src="https://images.unsplash.com/photo-1492666673288-3c4b4576ad9a?q=80&w=3864&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen Descriptiva 4" class="gallery-image">
-    <img src="https://images.unsplash.com/photo-1551963831-b3b1ca40c98e?q=80&w=4000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen Descriptiva 5" class="gallery-image">
-
-    <img src="https://plus.unsplash.com/premium_photo-1673266203705-08ee530cc2b5?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen Descriptiva 1" class="gallery-image">
-    <img src="https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen Descriptiva 2" class="gallery-image">
-    <img src="https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen Descriptiva 3" class="gallery-image">
-    <img src="https://images.unsplash.com/photo-1492666673288-3c4b4576ad9a?q=80&w=3864&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen Descriptiva 4" class="gallery-image">
-    <img src="https://images.unsplash.com/photo-1551963831-b3b1ca40c98e?q=80&w=4000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen Descriptiva 5" class="gallery-image">
-
-    <img src="https://plus.unsplash.com/premium_photo-1673266203705-08ee530cc2b5?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen Descriptiva 1" class="gallery-image">
-    <img src="https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen Descriptiva 2" class="gallery-image">
-    <img src="https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen Descriptiva 3" class="gallery-image">
-    <img src="https://images.unsplash.com/photo-1492666673288-3c4b4576ad9a?q=80&w=3864&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen Descriptiva 4" class="gallery-image">
-    <img src="https://images.unsplash.com/photo-1551963831-b3b1ca40c98e?q=80&w=4000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen Descriptiva 5" class="gallery-image">
-
-    <img src="https://plus.unsplash.com/premium_photo-1673266203705-08ee530cc2b5?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen Descriptiva 1" class="gallery-image">
-    <img src="https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen Descriptiva 2" class="gallery-image">
-    <img src="https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen Descriptiva 3" class="gallery-image">
-    <img src="https://images.unsplash.com/photo-1492666673288-3c4b4576ad9a?q=80&w=3864&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen Descriptiva 4" class="gallery-image">
-    <img src="https://images.unsplash.com/photo-1551963831-b3b1ca40c98e?q=80&w=4000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen Descriptiva 5" class="gallery-image">
-
-    <img src="https://plus.unsplash.com/premium_photo-1673266203705-08ee530cc2b5?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen Descriptiva 1" class="gallery-image">
-    <img src="https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen Descriptiva 2" class="gallery-image">
-    <img src="https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen Descriptiva 3" class="gallery-image">
-    <img src="https://images.unsplash.com/photo-1492666673288-3c4b4576ad9a?q=80&w=3864&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen Descriptiva 4" class="gallery-image">
-    <img src="https://images.unsplash.com/photo-1551963831-b3b1ca40c98e?q=80&w=4000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen Descriptiva 5" class="gallery-image">
-
-    <img src="https://plus.unsplash.com/premium_photo-1673266203705-08ee530cc2b5?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen Descriptiva 1" class="gallery-image">
-    <img src="https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen Descriptiva 2" class="gallery-image">
-    <img src="https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen Descriptiva 3" class="gallery-image">
-    <img src="https://images.unsplash.com/photo-1492666673288-3c4b4576ad9a?q=80&w=3864&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen Descriptiva 4" class="gallery-image">
-    <img src="https://images.unsplash.com/photo-1551963831-b3b1ca40c98e?q=80&w=4000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen Descriptiva 5" class="gallery-image">
-
+        <img src="Images/2_Modelling.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/3_Modelling.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/4_Modelling.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/5_Modelling.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/6_Modelling.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/7_Modelling.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/8_Modelling.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/1_Modelling.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/4_Modelling.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/9_Modelling.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/10_Modelling.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/11_Modelling.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/12_Modelling.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/13_Modelling.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/1_Wedding.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/2_Wedding.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/3_Wedding.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/4_Wedding.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/5_Wedding.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/6_Wedding.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/7_Wedding.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/8_Wedding.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/4_Wedding.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/9_Wedding.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/10_Wedding.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/4_Modelling.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/11_Wedding.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/12_Wedding.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/13_Wedding.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/14_Wedding.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/4_Modelling.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/4_Modelling.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/1_Engagement.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/2_Engagement.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/4_Modelling.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/3_Engagement.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/4_Engagement.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/5_Engagement.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/6_Engagement.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/7_Engagement.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/8_Engagement.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/4_Modelling.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/9_Engagement.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/10_Engagement.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/11_Engagement.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/12_Engagement.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/4_Modelling.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/13_Engagement.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/14_Engagement.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/15_Engagement.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/16_Engagement.jpg" class="gallery-image" alt="Engagement Image">
+        <img src="Images/17_Engagement.jpg" class="gallery-image" alt="Engagement Image">
       </div>
     </div>
   </div>
@@ -84,4 +92,5 @@
 
   <script src="script.js"></script>
 </body>
+
 </html>
