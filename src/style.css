@@ -1,8 +1,3 @@
-@font-face {
-  font-family: 'Braun';
-  src: url('src/fonts/BraunLinear-Thin.ttf') format('truetype');
-}
-
 
 body {
   margin: 0;
@@ -28,7 +23,7 @@ body {
 }
 
 .side-section h4 {
-  font-family: 'Braun', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 32px;
   color: grey;
 }
