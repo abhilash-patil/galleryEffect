@@ -1,4 +1,3 @@
-
 body {
   margin: 0;
   display: flex;
@@ -13,7 +12,7 @@ body {
 }
 
 .side-section {
-  padding: 48px;
+  padding: 2em;
   flex: 0 0 35%;
   background-color: black;
   display: flex;
@@ -23,25 +22,69 @@ body {
 }
 
 .side-section h4 {
-  font-family: 'Inter', sans-serif;
+  font-size: 48px;
+  color: grey;
+  font-family: 'Marcellus', serif;  /* Use Marcellus for headings */
+  letter-spacing: 1px;  /* Adjust the value as needed */
+  word-spacing: 6px;    /* Adjust the value as needed for additional space between words */
+  text-align: center;   /* Center the text */
+  width: 100%; 
+  margin-top: 24px; /* Corrected margin value */
+  margin-bottom: 0; 
+}
+
+.side-section h2 {
+  font-size: 20px;
+  color: grey;
+  font-family: 'Inter', sans-serif; 
+  font-weight: 200;
+  letter-spacing: 1px;  /* Adjust the value as needed */
+  word-spacing: 1px;    /* Adjust the value as needed for additional space between words */
+  text-align: center;   /* Center the text */
+  width: 100%;  
+  margin-top: 12px; /* Corrected margin value */
+  margin-bottom: 0; 
+}
+
+.side-section h3 {
   font-size: 32px;
   color: grey;
+  font-family: 'Marcellus', serif;
+  font-weight: 200;
+  letter-spacing: 1px;  /* Adjust the value as needed */
+  word-spacing: 2px;    /* Adjust the value as needed for additional space between words */
+  text-align: center;   /* Center the text */
+  width: 100%;  
+  margin-top: 4px; /* Corrected margin value */
+  margin-bottom: 40px; 
 }
 
 .side-section ul {
   list-style-type: none;
-  padding: 0;
-  margin: 0;
+  padding: 12;
+  margin: 12;
 }
 
 .side-section ul li a {
-  font-size: 28px;
-  color: blueviolet;
+  font-family: 'Marcellus', serif; 
+  font-weight: 200;
+  font-size: 20px;
+  letter-spacing: 2px;  /* Adjust the value as needed */
+  word-spacing: 2px;  
+  color: grey;
   text-decoration: none;
+  text-align: center;   /* Center the text */
 }
 
 .side-section ul li a:hover {
+  font-family: 'Marcellus', serif; 
+  font-weight: 200;
+  letter-spacing: 2px;  /* Adjust the value as needed */
+  word-spacing: 2px;  
   text-decoration: underline;
+  color: blue;
+  text-decoration: none;
+  background-color: grey;
 }
 
 .image-section {
@@ -66,7 +109,7 @@ body {
   border-radius: 0px;
   cursor: pointer;
   object-fit: cover;
-  filter: grayscale(100%);
+  filter: grayscale(100%) blur(4px);
   transition: filter 0.2s ease, transform 0.2s ease, z-index 0s 0.2s;
   z-index: 0;
   transform: translateZ(0);
@@ -81,7 +124,7 @@ body {
 }
 
 .gallery-image:not(:hover):not(:focus) {
-  filter: grayscale(100%) sepia(10%) blur(0px) brightness(50%);
+  filter: grayscale(100%) sepia(3%) blur(0px) brightness(50%);
   transition: filter 0.2s ease, transform 0.2s ease;
 }
 
@@ -121,7 +164,7 @@ body {
   top: 15px;
   right: 35px;
   color: gray;
-  font-size: 64px;
+  font-size: 48px;
   font-weight: normal;
   transition: 0.3s;
 }
@@ -136,13 +179,16 @@ body {
 /* Footer styles */
 footer {
   background-color: black;
-  color: white;
+  font-size: 20px;
+  color: grey;
+  font-family: 'Marcellus', serif; 
+  font-weight: 200;
   text-align: center;
-  padding: 10px 0;
+  padding: 24px 0; /* Add top and bottom padding of 24 pixels */
 }
 
 /* Responsive styles - Tablet */
-@media (max-width: 1024px) {
+@media (max-width: 1100px) {
   .container {
     flex-direction: column;
   }
@@ -151,6 +197,7 @@ footer {
     width: 100%;
     height: 40vh;
     flex: 0 0 auto;
+    overflow: auto; /* Make side-section scrollable on tablet */
   }
   
   .image-section {
@@ -161,6 +208,15 @@ footer {
 
   .gallery {
     grid-template-columns: repeat(3, 1fr);
+  }
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: gray;
+    font-size: 40px;
+    font-weight: normal;
+    transition: 0.3s;
   }
 }
 
@@ -174,9 +230,9 @@ footer {
     width: 100%;
     height: 40vh;
     flex: 0 0 auto;
-    font-family: 'braun', sans-serif;
     padding: 16px;
     background-color: black;
+    overflow: auto; /* Make side-section scrollable on mobile */
   }
   
   .image-section {
@@ -202,7 +258,7 @@ footer {
   top: 15px;
   right: 35px;
   color: gray;
-  font-size: 48px;
+  font-size: 32px;
   font-weight: normal;
   transition: 0.3s;
 }
