@@ -3,6 +3,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  font-family: 'Inter', sans-serif;
 }
 
 .container {
@@ -17,74 +18,87 @@ body {
   background-color: black;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-start;
+  text-align: center;
 }
 
-.side-section h4 {
-  font-size: 48px;
-  color: grey;
-  font-family: 'Marcellus', serif;  /* Use Marcellus for headings */
-  letter-spacing: 1px;  /* Adjust the value as needed */
-  word-spacing: 6px;    /* Adjust the value as needed for additional space between words */
-  text-align: center;   /* Center the text */
-  width: 100%; 
-  margin-top: 24px; /* Corrected margin value */
-  margin-bottom: 0; 
-}
-
-.side-section h2 {
-  font-size: 20px;
-  color: grey;
-  font-family: 'Inter', sans-serif; 
-  font-weight: 200;
-  letter-spacing: 1px;  /* Adjust the value as needed */
-  word-spacing: 1px;    /* Adjust the value as needed for additional space between words */
-  text-align: center;   /* Center the text */
-  width: 100%;  
-  margin-top: 12px; /* Corrected margin value */
-  margin-bottom: 0; 
-}
-
-.side-section h3 {
-  font-size: 32px;
-  color: grey;
+/* Name style */
+.side-section h1 {
+  font-size: 40px;
   font-family: 'Marcellus', serif;
-  font-weight: 200;
-  letter-spacing: 1px;  /* Adjust the value as needed */
-  word-spacing: 2px;    /* Adjust the value as needed for additional space between words */
-  text-align: center;   /* Center the text */
-  width: 100%;  
-  margin-top: 4px; /* Corrected margin value */
-  margin-bottom: 40px; 
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  margin-top: 2em;
+  margin-bottom: 0;
+  color: #e4e4e4;
 }
-
-.side-section ul {
-  list-style-type: none;
-  padding: 12;
-  margin: 12;
-}
-
-.side-section ul li a {
-  font-family: 'Marcellus', serif; 
-  font-weight: 200;
-  font-size: 20px;
-  letter-spacing: 2px;  /* Adjust the value as needed */
-  word-spacing: 2px;  
+/* Professional Photgrapher style */
+.side-section h2 {
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
   color: grey;
-  text-decoration: none;
-  text-align: center;   /* Center the text */
+  font-weight: 200;
+  letter-spacing: 1px;
+  margin-top: 0.5em;
+  margin-bottom: 4em;
 }
 
-.side-section ul li a:hover {
-  font-family: 'Marcellus', serif; 
+/* 200+ style */
+.side-section h3 {
+  font-size: 36px;
+  font-family: 'Marcellus', serif;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  margin: 0;
+  color: #e4e4e4;
+}
+
+/* Clients style */
+.side-section h4 {
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  color: grey;
   font-weight: 200;
-  letter-spacing: 2px;  /* Adjust the value as needed */
-  word-spacing: 2px;  
-  text-decoration: underline;
-  color: blue;
+  letter-spacing: 1px;
+  margin-top: 0.5em ;
+  margin-bottom: 4em;
+}
+
+/* Tagliine style */
+.side-section h5 {
+  font-size: 28px;
+  font-family: 'Marcellus', serif;
+  word-spacing: 2px;
+  font-weight: 200;
+  margin-bottom:  4em;
+  color: #e4e4e4;
+}
+
+/* contact style */
+.side-section .contact p {
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+  color: grey;
+  font-weight: 200;
+  letter-spacing: 1px;
+  margin-bottom: 0.5em;
+}
+
+/* Links style */
+.side-section .contact p a {
+  font-size: 20px;
+  font-family: 'Marcellus', serif;
+  color: #e4e4e4;
   text-decoration: none;
-  background-color: grey;
+  
+}
+
+/* Links hover style */
+.side-section .contact p a:hover {
+  text-decoration: underline;
+  color: #e4e4e4;
+  background-color: rgb(0, 60, 189);
 }
 
 .image-section {
@@ -179,10 +193,7 @@ body {
 /* Footer styles */
 footer {
   background-color: black;
-  font-size: 20px;
-  color: grey;
-  font-family: 'Marcellus', serif; 
-  font-weight: 200;
+  color: white;
   text-align: center;
   padding: 24px 0; /* Add top and bottom padding of 24 pixels */
 }
@@ -200,6 +211,85 @@ footer {
     overflow: auto; /* Make side-section scrollable on tablet */
   }
   
+/* T Name style */
+.side-section h1 {
+  font-size: 28px;
+  font-family: 'Marcellus', serif;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  margin-top: 0.5em;
+  margin-bottom: 0;
+  color: #e4e4e4;
+}
+/* T Professional Photgrapher style */
+.side-section h2 {
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  color: grey;
+  font-weight: 200;
+  letter-spacing: 1px;
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+}
+
+/* T 200+ style */
+.side-section h3 {
+  font-size: 22px;
+  font-family: 'Marcellus', serif;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  margin: 0;
+  color: #e4e4e4;
+}
+
+/* T Clients style */
+.side-section h4 {
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  color: grey;
+  font-weight: 200;
+  letter-spacing: 1px;
+  margin-bottom: 2em ;
+}
+
+/* T Tagliine style */
+.side-section h5 {
+  font-size: 22px;
+  font-family: 'Marcellus', serif;
+  word-spacing: 2px;
+  font-weight: 200;
+  margin-top: 0;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom:  1.5em;
+  color: #e4e4e4;
+}
+
+/* T contact style */
+.side-section .contact p {
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  color: grey;
+  font-weight: 200;
+  letter-spacing: 1px;
+  margin: 6px 0px;
+}
+
+/* T Links style */
+.side-section .contact p a {
+  font-size: 16px;
+  font-family: 'Marcellus', serif;
+  color: #e4e4e4;
+  text-decoration: none;
+  
+}
+
+/* T Links hover style */
+.side-section .contact p a:hover {
+  text-decoration: underline;
+  color: #e4e4e4;
+  background-color: rgb(0, 60, 189);
+}
   .image-section {
     width: 100%;
     height: 60vh;
@@ -218,6 +308,15 @@ footer {
     font-weight: normal;
     transition: 0.3s;
   }
+  /* T Footer styles */
+footer {
+  background-color: black;
+  font-family: "Marcellus", sans-serif;
+  color: #e4e4e4;
+  text-align: center;
+  padding: 24px 0; /* Add top and bottom padding of 24 pixels */
+}
+
 }
 
 /* Responsive styles - Mobile */
@@ -234,6 +333,87 @@ footer {
     background-color: black;
     overflow: auto; /* Make side-section scrollable on mobile */
   }
+
+
+/* M Name style */
+.side-section h1 {
+  font-size: 28px;
+  font-family: 'Marcellus', serif;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  margin-top: 0.5em;
+  margin-bottom: 0;
+  color: #e4e4e4;
+}
+/* M Professional Photgrapher style */
+.side-section h2 {
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  color: grey;
+  font-weight: 200;
+  letter-spacing: 1px;
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+}
+
+/* M 200+ style */
+.side-section h3 {
+  font-size: 22px;
+  font-family: 'Marcellus', serif;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  margin: 0;
+  color: #e4e4e4;
+}
+
+/* M Clients style */
+.side-section h4 {
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  color: grey;
+  font-weight: 200;
+  letter-spacing: 1px;
+  margin-bottom: 2em ;
+}
+
+/* M Tagliine style */
+.side-section h5 {
+  font-size: 22px;
+  font-family: 'Marcellus', serif;
+  word-spacing: 2px;
+  font-weight: 200;
+  margin-top: 0;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom:  1.5em;
+  color: #e4e4e4;
+}
+
+/* M contact style */
+.side-section .contact p {
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  color: grey;
+  font-weight: 200;
+  letter-spacing: 1px;
+  margin: 6px 0px;
+}
+
+/* M Links style */
+.side-section .contact p a {
+  font-size: 16px;
+  font-family: 'Marcellus', serif;
+  color: #e4e4e4;
+  text-decoration: none;
+  
+}
+
+/* M Links hover style */
+.side-section .contact p a:hover {
+  text-decoration: underline;
+  color: #e4e4e4;
+  background-color: rgb(0, 60, 189);
+}
   
   .image-section {
     width: 100%;
@@ -262,5 +442,14 @@ footer {
   font-weight: normal;
   transition: 0.3s;
 }
+ /* Footer styles */
+footer {
+  background-color: black;
+  font-family: "Marcellus", sans-serif;
+  color: #e4e4e4;
+  text-align: center;
+  padding: 16px 0; /* Add top and bottom padding of 24 pixels */
+}
+
 
 }
