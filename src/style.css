@@ -14,7 +14,7 @@ body {
 
 .side-section {
   padding: 2em;
-  flex: 0 0 35%;
+  flex: 0 0 33%;
   background-color: black;
   display: flex;
   flex-direction: column;
