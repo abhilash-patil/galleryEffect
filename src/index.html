@@ -1,23 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Image Hover Effect</title>
+  <!-- Link to external stylesheets -->
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;700&family=Marcellus&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <style>
-    img {
-      -webkit-user-drag: none; /* Prevent image dragging in webkit browsers */
-      user-select: none; /* Prevent image selection */
-    }
-  </style>
 </head>
-
 <body oncontextmenu="return false;">
   <div class="container">
+    <!-- Side section with photographer's information -->
     <div class="side-section">
       <h1>ROHAN PATIL</h1>
       <h2>PROFESSIONAL EVENT PHOTOGRAPHER</h2>
@@ -30,62 +24,10 @@
         <p><i class="far fa-phone"></i><a href="tel:+91 7249006122"> +91 7249006122</a></p>
       </div>
     </div>
+    <!-- Image section where images will be dynamically inserted -->
     <div class="image-section">
-      <div class="gallery">
-        <!-- Image gallery content -->
-        <img src="Images/2_Modelling.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/3_Modelling.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/4_Modelling.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/5_Modelling.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/6_Modelling.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/7_Modelling.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/8_Modelling.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/1_Modelling.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/4_Modelling.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/9_Modelling.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/10_Modelling.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/11_Modelling.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/12_Modelling.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/13_Modelling.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/1_Wedding.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/2_Wedding.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/3_Wedding.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/4_Wedding.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/5_Wedding.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/6_Wedding.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/7_Wedding.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/8_Wedding.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/4_Wedding.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/9_Wedding.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/10_Wedding.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/4_Modelling.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/11_Wedding.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/12_Wedding.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/13_Wedding.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/14_Wedding.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/4_Modelling.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/4_Modelling.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/1_Engagement.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/2_Engagement.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/4_Modelling.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/3_Engagement.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/4_Engagement.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/5_Engagement.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/6_Engagement.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/7_Engagement.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/8_Engagement.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/4_Modelling.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/9_Engagement.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/10_Engagement.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/11_Engagement.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/12_Engagement.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/4_Modelling.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/13_Engagement.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/14_Engagement.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/15_Engagement.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/16_Engagement.jpg" class="gallery-image" alt="Engagement Image">
-        <img src="Images/17_Engagement.jpg" class="gallery-image" alt="Engagement Image">
-        <!-- More images as needed -->
+      <div class="gallery" id="gallery">
+        <!-- Images will be dynamically inserted here -->
       </div>
     </div>
   </div>
@@ -100,7 +42,7 @@
     <img class="modal-content" id="modal-img">
   </div>
 
-  <script src="script.js"></script>
+  <!-- Link to the external script file, defer loading to improve performance -->
+  <script src="script.js" defer></script>
 </body>
-
 </html>
